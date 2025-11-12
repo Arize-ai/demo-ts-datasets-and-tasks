@@ -1,0 +1,25 @@
+{
+  "name": "phoenix-dataset-task-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file .env index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.65",
+    "@arizeai/phoenix-client": "^5.3.0",
+    "@arizeai/phoenix-otel": "^0.3.0",
+    "ai": "^5.0.93",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
